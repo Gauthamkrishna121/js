@@ -180,8 +180,61 @@ function odd(){
         }
     }
 }
-// sum off odd numbers 
+// sum of natural numbers 
  function sumodd(){
     var i = 0;
-    for(i=0)
+    var sum =0;
+    for(i=1;i<=100;i++){
+        sum +=i;
+    }
+    console.log(sum)
  }
+ 
+//  multitable 
+function mul(a){
+    var i = 0;
+    var m = 0;
+    for(i=1;i<=10;i++){
+        m=i*a;
+        console.log(i+' * '+a+' = '+m)
+    }
+}
+
+// factorial 
+
+function fact(a){
+    var i = 0;
+    var f = 1;
+    for(i=1;i<=a;i++){
+        f*=i;
+    }
+    console.log(f);
+}
+
+// fibanacci sereis 
+
+function fib(n){
+    var a = 0;
+    var b = 1;
+    var c = 0;
+    console.log(a)
+    console.log(b)
+    for(let i=1;i<=n;i++){
+        c=a+b
+        console.log(c)
+        a=b
+        b=c
+    }
+}
+
+// numbers in the degit
+
+function count(n){
+    var c = 0;
+    var a = n.toString().length;
+    for(let i=1;i<=a;i++){
+        c+=1
+    }
+    console.log(c);
+}
+
