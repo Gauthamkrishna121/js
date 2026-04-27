@@ -238,3 +238,91 @@ function count(n){
     console.log(c);
 }
 
+// reverse number 
+
+function rev(n){
+    var d = 0
+    var rev= 0
+    while (n > 0){
+        d=n%10
+        rev = rev * 10 + d
+        n=Math.floor(n/10);
+    }
+    console.log(rev)
+}
+
+// While loop 
+
+// print numbers 
+
+function num(n){
+    var i = 1;
+    while (i <=n){
+        console.log(i);
+        i++;
+    } 
+}
+
+// sum of digits 
+
+function sum(n){
+    var s = 0;
+    var i = 0;
+    while (i <=n){
+        s +=i;
+        i++;
+    }
+    console.log(s)
+}
+
+// palindrome 
+
+function pali(n){
+    var g = n;
+    var d = 0;
+    var rev = 0;
+    while (n > 0){
+        d = n % 10;
+        rev = rev * 10 + d;
+        n = Math.floor(n/10)
+    }
+    console.log(rev)
+    if(g == rev){
+        console.log("palindrome")
+    }
+    else{
+        console.log("Not a palindrome ")
+    }
+}
+
+// Armstrong Number 
+function arm(n){
+    var g = n;
+    var c = 0;
+    var s = 0;
+    var a = n.toString().split('').map(Number);
+    var l = a.length;
+    for(let b of a){
+        c=b**l;
+        s+=c;
+    }
+    console.log(s)
+    if(g==s){
+        console.log("The number is Armstrong")
+    }
+    else{
+        console.log("No")
+    }
+}
+
+// GCD OF TWO NUMBER
+
+function gcd(a,b){
+    let r = 0
+    while (b!=0){
+        r=a%b;
+        a=b;
+        b=r;
+    }
+    console.log(a)
+}
