@@ -86,6 +86,13 @@
 #     b=r
 # print(a)
 
-a=int(input("Enter the Numbers:"))
-for i in range (a):
+# a=int(input("Enter the Numbers:"))
+# for i in range (a):
     
+a=int(input("enter the number :"))
+b=list(str(a))
+c=[]
+for i in b:
+    p=int(i)*2
+    c.append(p)
+print(c)
