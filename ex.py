@@ -64,6 +64,8 @@
 # b=int(input("Enter Number:"))
 # a=list(map(int,str(b)))
 # print(a)
+
+
 # s=0
 # l=len(a)
 # print(l)
@@ -76,10 +78,14 @@
 # else:
 #     print("No")
 
-a=int(input("ENter the Number"))
-b=int(input("Enter the Number"))
-while b!=0:
-    r=a%b
-    a=b
-    b=r
-print(a)
+# a=int(input("ENter the Number"))
+# b=int(input("Enter the Number"))
+# while b!=0:
+#     r=a%b
+#     a=b
+#     b=r
+# print(a)
+
+a=int(input("Enter the Numbers:"))
+for i in range (a):
+    

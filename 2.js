@@ -326,3 +326,12 @@ function gcd(a,b){
     }
     console.log(a)
 }
+
+// prime numbers 
+
+function number(){
+    a=[1,2,3,4,5,5]
+    for(var i in a ){
+        console.log(a[i]);
+    }
+}
