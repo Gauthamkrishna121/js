@@ -26,3 +26,29 @@ od(21).then((result)=>{
     console.log(result)
 
 })
+
+// dely in ms 
+
+function dely(ms){
+    return new Promise((resolve)=>{
+        setTimeout(()=>{
+            resolve("The Delay is "+ms+" ms");
+        },ms)
+    })
+}
+
+dely(1000).then((result)=>{
+    console.log(result)
+})
+dely(2000).then((result)=>{
+    console.log(result)
+})
+dely(3000).then((result)=>{
+    console.log(result)
+})
+dely(4000).then((result)=>{
+    console.log(result)
+})
+dely(5000).then((result)=>{
+    console.log(result)
+})
