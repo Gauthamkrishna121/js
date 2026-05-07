@@ -35,3 +35,10 @@ function cas(a){
     console.log(n)
 }
 
+// usernames from user 
+
+function us(){
+    var user=[{id:1,username:'gautham'}
+        {id:2,username:'babu'}
+        {id : 3,username:'ramu'}]
+}
